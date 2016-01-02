@@ -1,0 +1,34 @@
+README - 12/8/2015
+———————————
+
+Demand Paging Lab 4
+++++++++++++++++++++++++++++
+
+Thank you for downloading this Demang Paging simulator
+
+Please see the FAQ below:
+
+FAQ:
+——————————————————————————————————————
+
+1. How to run the program?
+	a.	Before compiling and running please have the pager exe in the same directory as the random-numbers.txt
+	b.  Compiling should look something like g++ main.cpp pager.cpp
+	c.	There is ONLY ONE possible arguments to pass into the program when running.
+	    1. <input-filename> <M> <P> <S> <J> <N> <R> <D>
+	d.	The program should run successfully and display the output on the terminal (standard output).
+——————————————————————————————————————
+
+2. What is verbose mode? -- passing 1 as the last argument*
+    - When verbose mode is activated, it will display all of the cycles involved
+    in a particular algorithm. This is especially useful when debugging the program.
+    It indicates the process, reference word, the page, program time,
+    hit or miss, eviction and the page being evicted.
+
+——————————————————————————————————————
+Thank you for using this Demand Paging simulator.
+
+    Author: Ricardo Guntur (ricardo.guntur@nyu.edu)
+    Course: Operating Systems -- Professor Allan Gottlieb.
+
+
